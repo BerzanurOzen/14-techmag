@@ -8,3 +8,44 @@ body {
   margin: auto;
   background-color: #111;
 }
+.header{
+  background-image: url(../img/ligne_code.jpg);
+  color: white;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  box-sizing: border-box;
+  margin: 19px 27px 19px 27px;
+  padding: 30px 32px 50px 30px;
+
+}
+div {
+  border: 10px;
+  background : white;
+  margin: 19px 27px 19px 27px;
+  padding: 30px 32px 50px 30px;
+  font-family: sans-serif;
+}
+.info {
+  background-color: #2afca6 ;
+  margin: 19px 27px 19px 27px;
+}
+.centre {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.article {
+  text-align: left;
+  
+}
+.footer {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2bffaa;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
