@@ -7,13 +7,12 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: #111;
+  font-family: sans-serif;
 }
 .header{
   background-image: url(../img/ligne_code.jpg);
   color: white;
-  border-width: 2px;
-  border-color: white;
-  border-style: solid;
+  border:  solid 2px white; 
   box-sizing: border-box;
   margin: 19px 27px 19px 27px;
   padding: 30px 32px 50px 30px;
@@ -24,7 +23,6 @@ div {
   background : white;
   margin: 19px 27px 19px 27px;
   padding: 30px 32px 50px 30px;
-  font-family: sans-serif;
 }
 .info {
   background-color: #2afca6 ;
@@ -47,5 +45,35 @@ img {
   text-align: center;
   color: white;
   background-color: black;
+  margin: 19px 27px 19px 27px;
+}
+figure {
+  margin:0%;
+}
+.vert {
+  color:#2afca6;
+}
+.thin {
+  font-weight: 100;
+  font-style: italic;
+}
+.gris {
+  color: grey;
+}
+.legend {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+figcaption {
+  padding: 14px 10px;
+}
+.button {
+padding: 7px 14px;
+background-color: gray;
+color: white;
+
+}
+.gris {
+  color: gray;
 }
 
