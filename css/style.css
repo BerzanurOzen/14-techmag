@@ -1,8 +1,4 @@
 
-/*
-  font-family: 'Montserrat', sans-serif; 100it/800
-  font-family: 'Open Sans', sans-serif; 400/400it/700/700it
-*/
 html {
   scroll-behavior: smooth;
 }
@@ -11,7 +7,8 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: #111;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .header{
   background-image: url(../img/ligne_code.jpg);
@@ -53,6 +50,7 @@ img {
 }
 figure {
   margin:0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .vert {
   color:#2afca6;
@@ -63,10 +61,6 @@ figure {
 }
 .gris {
   color: grey;
-}
-.legend {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 figcaption {
   padding: 14px 10px;
@@ -80,8 +74,16 @@ color: white;
 .gris {
   color: gray;
 }
-figure {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
 }
+h1 {
+  font-size: 25px;
+} 
+h2 {
+  font-size: 15px;
+}
+
+
 
 
