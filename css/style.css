@@ -1,4 +1,8 @@
 
+/*
+  font-family: 'Montserrat', sans-serif; 100it/800
+  font-family: 'Open Sans', sans-serif; 400/400it/700/700it
+*/
 html {
   scroll-behavior: smooth;
 }
@@ -76,4 +80,8 @@ color: white;
 .gris {
   color: gray;
 }
+figure {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
