@@ -10,7 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-.header{
+.title {
   background-image: url(../img/ligne_code.jpg);
   color: white;
   border:  solid 2px white; 
@@ -35,11 +35,11 @@ div {
 img {
   width: 100%;
 }
-.article {
+.photo {
   text-align: left;
   
 }
-.footer {
+.dated {
   border-width: 2px;
   border-style: solid;
   border-color: #2bffaa;
@@ -52,14 +52,14 @@ figure {
   margin:0%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.vert {
+.name {
   color:#2afca6;
 }
-.thin {
+.font {
   font-weight: 100;
   font-style: italic;
 }
-.gris {
+.subtitle {
   color: grey;
 }
 figcaption {
@@ -69,10 +69,6 @@ figcaption {
 padding: 7px 14px;
 background-color: gray;
 color: white;
-
-}
-.gris {
-  color: gray;
 }
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
