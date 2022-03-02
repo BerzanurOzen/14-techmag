@@ -1,6 +1,8 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
 }
 
 body {
@@ -78,6 +80,13 @@ h1 {
 } 
 h2 {
   font-size: 15px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 
